@@ -1,0 +1,10 @@
+{
+  "name": "my-new-site",
+  "version": "1.0.0",
+
+  "scripts": {
+    "build": "mkdir -p dist && cp -R src/* dist/"
+  },
+  "author": "Phil Hawksworth <phil@netlify.com>",
+  "license": "ISC"
+}
