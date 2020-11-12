@@ -1,0 +1,125 @@
+:root {
+  --accent-color: #207bdc;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  text-align: center;
+  font-family: sans-serif;
+  line-height: 1.4;
+  color: #444;
+  border-top: solid 8px var(--accent-color);
+
+}
+
+h1, h2, h3 {
+  line-height: 1.1;
+  color: #000;
+  margin:0;
+}
+
+a:link,
+a:visited {
+  color: var(--accent-color);
+  text-decoration: none;
+}
+a:hover {
+  color: #000;
+}
+
+h2 {
+  margin-top: 2em;
+}
+
+.price {
+  font-weight: bold;
+}
+
+.btn:link,
+.btn:visited {
+  display: inline-block;
+  padding: 1rem 2rem;
+  text-decoration: none;
+  border-radius: 3px;
+  box-shadow: 0px 1px 6px #0006;
+  font-weight: bold;
+}
+.cta-buy:hover,
+.cta-buy:focus {
+  box-shadow: 0px 1px 8px #0006;
+}
+
+.cta-buy:link,
+.cta-buy:visited {
+  background-color: #222;
+  color: #fff;
+}
+.cta-buy:hover,
+.cta-buy:focus {
+  background-color: var(--accent-color);
+
+}
+
+.product-view {
+  display: flex;
+}
+.product-view img {
+  width: 60%;
+}
+.product-info {
+  padding: 0 2rem;
+}
+
+.terms,
+.breadcrumb {
+  font-size: 0.8rem;
+  color: #777;
+  font-style: italic;
+  margin: 2rem 0 1rem;
+}
+
+.left {
+  text-align: left;
+}
+
+header {
+  width: 800px;
+  margin: 1rem auto;
+}
+
+main {
+  width: 800px;
+  margin: 1rem auto;
+  padding: 2rem 0 6rem;
+  border-bottom: solid 1px #ccc;
+}
+
+footer {
+  width: 800px;
+  margin: 1rem auto;
+  font-size: 0.7rem;
+  color: #999;
+  text-align: left;
+}
+
+
+footer p {
+  margin: 0.25rem 0;
+}
+
+.logo {
+  width: 150px;
+  margin: 2rem 0 0.25rem;
+}
+
+.tagline {
+  width: 13rem;
+  margin: 0 auto;
+  font-style: italic;
+  font-size: 0.9rem;
+}

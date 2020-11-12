@@ -3,24 +3,47 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My New Site</title>
-  <style>
-    body {
-      text-align: center;
-      font-family: sans-serif;
-    }
-
-    h2 {
-      margin-top: 2em;
-    }
-  </style>
+  <title>One product to rule them all</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>My new site</h1>
-  <p>This site was created by running a little build script.</p>
-  <p>And now it exists and that makes me happy!</p>
-
-  <h2>It could do so much more</h2>
-  <p>And one day it will. But for now, we're just exploring.</p>
+  <header>
+    <img src="logo-vapourium.png" class="logo" alt="The Vapourium">
+    <p class="tagline">Fictional items at prices you'd be unwise to pay.</p>
+  </header>
+  <main>
+    <div class="breadcrumb left">
+      <a href="#">Pottery</a> |
+      <a href="#">Tableware</a> |
+      Mugs and cups
+    </div>
+    <div class="product-view">
+      <img src="product-hand-made-mug.jpg" alt="Hand made mug">
+      <div class="product-info">
+        <h1>Hand-made coffee cup</h1>
+        <p>
+          One-of-a-kind coffee cup in hand-made pottery with unique speckled light blue glaze.
+        </p>
+        <p class="price">
+          $299.99
+        </p>
+        <a href="#" class="btn cta-buy">Buy now</a>
+        <p class="terms">
+          Free shipping on all purchases over $50. See our <a href="#">shipping and returns policy</a>.
+        </p>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <p>
+      Photo by <a href="https://unsplash.com/@anniespratt?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Annie Spratt</a> on <a href="https://unsplash.com/s/photos/mug?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a>
+    </p>
+    <p>
+      Code on <a href="#">GitHub</a>
+    </p>
+    <p>
+      Deploys on <a href="#">Netlify</a>
+    </p>
+  </footer>
 </body>
 </html>
