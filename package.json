@@ -1,5 +1,6 @@
 {
-  "name": "my-new-site",
+  "name": "the-vapourium",
+  "description" : "An example site for demos and exploration",
   "version": "1.0.0",
   "scripts": {
     "build": "cp src/* dist/"
