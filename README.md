@@ -1,5 +1,6 @@
-# My New Site
+# GThe Vapourium
 
+Not a real e-commerce store.
 A very simple example site for use when demonstrating features in Netlify.
 
 
