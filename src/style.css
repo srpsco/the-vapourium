@@ -62,8 +62,20 @@ h2 {
 .cta-buy:hover,
 .cta-buy:focus {
   background-color: var(--accent-color);
-
 }
+
+.cta-loud:link,
+.cta-loud:visited {
+  background-color:var(--accent-color);
+  box-shadow: 0px 1px 8px #0006;
+  color: #fff;
+}
+.cta-loud:hover,
+.cta-loud:focus {
+  background-color: #000;
+}
+
+
 
 .product-view {
   display: flex;
